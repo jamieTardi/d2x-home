@@ -209,12 +209,12 @@
   color: white;
 }
 
-.circle-container {
+.light .circle-container {
   background-color: white;
   border: 15px solid black;
 }
 
-.circle-container .circle-inner h5 {
+.light .circle-container .circle-inner h5 {
   color: black;
 }
 

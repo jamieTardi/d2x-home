@@ -89,12 +89,14 @@
 	}
 }
 
-.circle-container {
-	background-color: white;
-	border: 15px solid black;
-	.circle-inner {
-		h5 {
-			color: black;
+.light {
+	.circle-container {
+		background-color: white;
+		border: 15px solid black;
+		.circle-inner {
+			h5 {
+				color: black;
+			}
 		}
 	}
 }
