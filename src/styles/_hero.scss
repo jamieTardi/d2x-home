@@ -1,0 +1,37 @@
+.hero-container {
+	width: 100vw;
+	min-height: 60vh;
+	background-image: url('../assets/images/bg_laptop.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	scale: 1;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 8rem;
+}
+
+.text-container-hero {
+	width: 40%;
+	height: 35vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.hero-paragaph {
+	p {
+		color: #99cc00;
+	}
+}
+
+.light {
+	.hero-paragaph {
+		p {
+			color: #166fe5;
+		}
+	}
+}

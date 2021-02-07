@@ -1,0 +1,30 @@
+.nav-container {
+	width: 100vw;
+	height: 10vh;
+	background: transparent;
+	position: absolute;
+	z-index: 2;
+	display: flex;
+	justify-content: space-between;
+	padding: 0rem 8rem;
+	ul {
+		color: white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 30%;
+		list-style-type: none;
+		li {
+			margin-left: 3rem;
+		}
+	}
+}
+
+.logo {
+	height: 100%;
+	width: 30%;
+	img {
+		width: 30%;
+		height: 100%;
+	}
+}

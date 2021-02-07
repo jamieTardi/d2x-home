@@ -1,0 +1,18 @@
+footer {
+	width: 100vw;
+	height: 15vh;
+	background: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	p {
+		color: white;
+		font-size: 0.8rem;
+	}
+}
+
+.light {
+	footer {
+		background: #166fe5;
+	}
+}
